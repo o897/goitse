@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 6vw;
+  justify-content: space-between;
+}
+
+
+
+.nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  gap : 25px;
+}
+.check {
+  display: flex;
+  gap: 20px;
+}
