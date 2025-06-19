@@ -22,5 +22,5 @@ const resutlsSchema = new mongoose.Schema({
 })
 
 // create ad export the model
-const Result = mongoose.model('Result', resutlsSchema);
-model.exports = Result
+const Result = mongoose.model('result', resutlsSchema);
+module.exports = Result
