@@ -21,7 +21,7 @@ exports.addSurvey = async (req, res) => {
         //     "dob": "1995-07-20",
         //     "contact": "0712345678"
         //   })
-        
+
         const {name, email, dob, contact } = req.body;
         
         const survey = new Result({
@@ -36,3 +36,5 @@ exports.addSurvey = async (req, res) => {
 
 
 }
+
+orA@unix/?25
